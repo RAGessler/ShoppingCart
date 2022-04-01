@@ -9,7 +9,3 @@ class Customer:
     def customer_show_product(self):
         for item in self.shopping_cart.products:
             print(item)
-
-my_customer = Customer('john')
-my_customer.customer_add_product()
-my_customer.customer_show_product()
