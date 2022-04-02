@@ -6,6 +6,7 @@ class ShoppingCart:
         self.total_cost = 0
         for item in range(len(self.products)):
             self.total_cost += self.products[item].price
+        print(f'The total cost is {self.total_cost} dollars')
     def add_product(self, item):
         self.products.append(item) 
     def empty_cart(self):

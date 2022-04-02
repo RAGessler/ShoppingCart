@@ -16,5 +16,3 @@ customer_one.customer_show_product()
 customer_one.shopping_cart.item_total()
 customer_one.shopping_cart.empty_cart()
 customer_one.shopping_cart.item_total()
-
-print(product_one.name)

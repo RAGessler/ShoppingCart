@@ -9,5 +9,4 @@ class Customer:
         self.shopping_cart.add_product(item)
     def customer_show_product(self):
         for item in range(len(self.shopping_cart.products)):
-         shown_prodct = self.shopping_cart.products[item]
-         print(shown_prodct.name)
+            print(self.shopping_cart.products[item].name)
